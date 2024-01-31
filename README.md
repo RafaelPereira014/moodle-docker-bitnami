@@ -1,5 +1,6 @@
 # moodle-docker-bitnami
-
+> [!NOTE]
+> Docker and docker-compose needs to be instaled.
 - Default docker-compose.yml file: 
 
 ```Dockerfile
