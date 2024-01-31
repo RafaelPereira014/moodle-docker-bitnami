@@ -39,10 +39,17 @@ services:
     links:
       - mariadb:mariadb
 ````
-- Configs:
-  
-| Ebslp  | Second Header |
-| ------------- | ------------- |
-| 172.22.130.131:8081  | Content Cell  |
-| 8443:8443  | Content Cell  |
-| 3306:3306  | Content Cell  |
+- Change file Upload limits:
+```ruby
+
+inside container on portainer.io:
+-> acess container console
+
+-> nano /opt/bitnami/php/etc/php.ini
+
+-> locate upload_max_filesize and post_max_size and increase to the desired values
+
+-> apachectl restart
+
+
+```
