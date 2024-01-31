@@ -2,7 +2,7 @@
 
 - Default docker-compose.yml file: 
 
-```ruby
+```Dockerfile
 version: '3'
 services:
   mariadb:
@@ -40,7 +40,7 @@ services:
       - mariadb:mariadb
 ````
 - Change file Upload limits:
-```ruby
+```txt
 
 inside container on portainer.io:
 -> acess container console
