@@ -1,6 +1,8 @@
 # moodle-docker-bitnami
+> [!TIP]
+> I advise you to use portainer.io for containers management.
 
-- Default docker-compose.yml file: 
+###Default docker-compose.yml file: 
 
 ```Dockerfile
 version: '3'
@@ -29,8 +31,6 @@ services:
       - MOODLE_DATABASE_PASSWORD=<school db passwdord>
       - MOODLE_DATABASE_NAME= Mod31_<school name>
       - ALLOW_EMPTY_PASSWORD=yes
-      - PUID=998
-      - PGID=100
     volumes:
       - /root/moodle/<school name>/:/bitnami/moodle
       - /root/moodle_data/<school name>/:/bitnami/moodledata
@@ -39,7 +39,7 @@ services:
     links:
       - mariadb:mariadb
 ````
-- Change file Upload limits:
+###Change file Upload limits (if needed)
 ```txt
 
 inside container on portainer.io:
