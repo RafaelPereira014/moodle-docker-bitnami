@@ -2,7 +2,7 @@
 > [!TIP]
 > I advise you to use portainer.io for containers management.
 
-###Default docker-compose.yml file: 
+### Default docker-compose.yml file: 
 
 ```Dockerfile
 version: '3'
@@ -39,7 +39,7 @@ services:
     links:
       - mariadb:mariadb
 ````
-###Change file Upload limits (if needed)
+### Change file Upload limits (if needed)
 ```txt
 
 inside container on portainer.io:
