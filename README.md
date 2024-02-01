@@ -1,6 +1,7 @@
 # moodle-docker-bitnami
 > [!TIP]
 > I advise you to use portainer.io for containers management.
+
 > [!NOTE]
 > You must have docker and docker-compose installed on your machine.
 ### Default docker-compose.yml file: 
