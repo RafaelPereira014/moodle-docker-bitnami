@@ -53,5 +53,18 @@ inside container on portainer.io:
 
 -> apachectl restart
 
+```
+### Enable HTTPS 
+```txt
+
+inside moodle as administrator:
+-> Site administration
+
+-> HTTP security
+
+-> HTTPS conversion tool
+
+-> save changes
 
 ```
+
