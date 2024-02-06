@@ -41,19 +41,6 @@ services:
     links:
       - mariadb:mariadb
 ````
-### Change file Upload limits (if needed)
-```txt
-
-inside container on portainer.io:
--> acess container console
-
--> nano /opt/bitnami/php/etc/php.ini
-
--> locate upload_max_filesize and post_max_size and increase to the desired values
-
--> apachectl restart
-
-```
 ### Enable HTTPS 
 ```txt
 
@@ -67,4 +54,18 @@ inside moodle as administrator:
 -> save changes
 
 ```
+### Change file Upload limits (if needed)
+```txt
+
+inside container on portainer.io:
+-> acess container console
+
+-> nano /opt/bitnami/php/etc/php.ini
+
+-> locate upload_max_filesize and post_max_size and increase to the desired values
+
+-> apachectl restart
+
+```
+
 
