@@ -80,6 +80,4 @@ inside moodle as administrator:
 
 ```
 
-```
-
 
