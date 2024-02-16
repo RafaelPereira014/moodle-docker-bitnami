@@ -65,6 +65,20 @@ inside container on portainer.io:
 -> locate upload_max_filesize and post_max_size and increase to the desired values
 
 -> apachectl restart
+```
+### Configure SMTP for emails:
+```txt
+
+inside moodle as administrator:
+-> server > Outgoing mail configuration
+    user: s0204moodleapp
+    password:*
+    Server: pegasus.azores.gov.pt
+    Auth: SMTP + TLS
+    Port: 587
+
+
+```
 
 ```
 
