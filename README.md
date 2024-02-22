@@ -26,7 +26,6 @@ services:
     container_name: moodle
     ports:
       - 808x:8080
-      - 844x:844x
     environment:
       - MOODLE_DATABASE_HOST=mariadb
       - MOODLE_DATABASE_USER=root
