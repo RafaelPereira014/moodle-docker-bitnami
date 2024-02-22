@@ -1,5 +1,7 @@
 This is a bitnami/moodle example running on docker container.
+
 The purpose of the project was to deploy N schools from a datacenter into docker containers , to be able to manage them separately , instead of being all on the same server.
+
 > This prevents that when a school is down , dont compromise all the other schools.
 # moodle-docker-bitnami
 > [!TIP]
