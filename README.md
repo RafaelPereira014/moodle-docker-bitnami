@@ -4,7 +4,8 @@
 
 > This prevents that when a school is down , dont compromise all the other schools.
 
-![docker_digram](https://github.com/RafaelPereira014/moodle-docker-bitnami/assets/83137321/93e38f80-0d91-4dbe-9c24-715446691a87)
+![Diagrama sem nome drawio](https://github.com/RafaelPereira014/moodle-docker-bitnami/assets/83137321/10e59eb5-906f-4314-9fc2-8355cead3195)
+
 
 # moodle-docker-bitnami
 > [!TIP]
