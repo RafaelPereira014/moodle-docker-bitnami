@@ -3,6 +3,8 @@
 ## The purpose of the project was to deploy N schools from a datacenter into docker containers , to be able to manage them separately , instead of being all on the same server.
 
 > This prevents that when a school is down , dont compromise all the other schools.
+![docker_digram](https://github.com/RafaelPereira014/moodle-docker-bitnami/assets/83137321/93e38f80-0d91-4dbe-9c24-715446691a87)
+
 # moodle-docker-bitnami
 > [!TIP]
 > I advise you to use portainer.io for containers management.
