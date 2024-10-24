@@ -88,4 +88,17 @@ inside moodle as administrator:
 
 ```
 
+### Expandir espaço disco Linux:
+```
+lsblk --ver os discos
+parted /dev/sda --aceder à partição principal
+(parted) p --ver as partições
+(parted) resizepart n 100% --onde n é o numero da partição desejada
+
+lvdisplay --ver o LV path para atualizar o volume logico(o que estiver apos o /dev/....)
+lvresize --extents +100%FREE --resizefs "ponto anterior"
+
+
+```
+
 
