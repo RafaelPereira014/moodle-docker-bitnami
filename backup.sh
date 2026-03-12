@@ -2,7 +2,7 @@
 #!/bin/bash
 
 # Define variables
-REMOTE_HOST="172.22.130.131"
+REMOTE_HOST="*******"
 REMOTE_DIR="/root/backups/"
 LOCAL_DIR="/root/backups/"
 SSH_PASSWORD="***********"
